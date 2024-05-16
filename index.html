@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranjeet Chouhan - Android Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #3ddc84;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #282828;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .section-title {
+            border-bottom: 2px solid #3ddc84;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+        .resume, .corporate-journey, .blogs, .contact {
+            margin: 20px 0;
+        }
+        .timeline {
+            list-style-type: none;
+            padding: 0;
+        }
+        .timeline-item {
+            margin: 10px 0;
+            padding-left: 20px;
+            border-left: 2px solid #3ddc84;
+            position: relative;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -8px;
+            top: 0;
+            width: 16px;
+            height: 16px;
+            background-color: #3ddc84;
+            border-radius: 50%;
+        }
+        .timeline-date {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        footer {
+            background-color: #3ddc84;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ranjeet Chouhan - Android Developer</h1>
+        <p>3+ years of Experience in Software Development</p>
+        <p>Email: <a href="mailto:ranuluhar@gmail.com" style="color: white;">ranuluhar@gmail.com</a> | Phone: <a href="tel:+919950008182" style="color: white;">+91 9950008182</a></p>
+    </header>
+    <nav>
+        <a href="#resume">Resume</a>
+        <a href="#corporate-journey">Corporate Journey</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="resume">
+        <h2 class="section-title">Resume</h2>
+        <p>Download my full resume <a href="resume.pdf" target="_blank">here</a>.</p>
+        <ul>
+            <li><strong>Experience:</strong> 3+ years in Android development</li>
+            <li><strong>Skills:</strong> Java, Kotlin, Android Studio, Firebase, REST APIs</li>
+            <li><strong>Education:</strong> B.Tech in Computer Science Engineering from Rajasthan Technical University, Pilani (2015-2019)</li>
+        </ul>
+    </section>
+    <section id="corporate-journey">
+        <h2 class="section-title">Corporate Journey</h2>
+        <ul class="timeline">
+            <li class="timeline-item">
+                <div class="timeline-date">April 2023 - Present</div>
+                <div><strong>Android Developer at Fourth Frontier Technologies, Bengaluru</strong></div>
+                <div>Migrated 40% codebase from Java to Kotlin. Developed FrontierPulse from scratch using Clean Architecture, Hilt, Jetpack Compose. Worked on BLE Layer and BLE Communication.</div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-date">October 2021 - March 2023</div>
+                <div><strong>Software Developer at Dotsquares Technologies Pvt. Ltd., Jaipur</strong></div>
+                <div>Improved app performance by 2x by reducing boilerplate code and enhancing code quality. Worked on 10+ projects for clients based in the UK, US, and AUS. Responsible for technical estimates and project analysis.</div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-date">December 2019 - May 2020</div>
+                <div><strong>Android Ninja at Uniqolabel (now acviss), Bengaluru</strong></div>
+                <div>Implemented computer vision algorithms using OpenCV and CameraX API. Optimized the user interface and existing product.</div>
+            </li>
+            <li class="timeline-item">
+                <div class="timeline-date">August 2019 - December 2019</div>
+                <div><strong>Android Engineer at Artivatic Data Labs Pvt. Ltd., Bengaluru</strong></div>
+                <div>Developed an offline KYC SDK for a client. Used Firebase Vision Text Recognizer, OpenCV, and TensorFlow Lite. Successfully deployed the SDK at Maven.</div>
+            </li>
+        </ul>
+    </section>
+    <section id="blogs">
+        <h2 class="section-title">Blogs</h2>
+        <ul>
+            <li><a href="https://stackoverflow.com/users/8209962/ranjeet-chouhan" target="_blank">StackOverflow Profile</a></li>
+            <li><a href="https://www.github.com/ranjeetchouhan" target="_blank">GitHub Profile</a></li>
+            <li><a href="https://www.linkedin.com/in/im-ranu/" target="_blank">LinkedIn Profile</a></li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p>If you would like to get in touch, please email me at <a href="mailto:ranuluhar@gmail.com">ranuluhar@gmail.com</a>.</p>
+        <p>You can also find me on LinkedIn: <a href="https://www.linkedin.com/in/im-ranu" target="_blank">linkedin.com/in/im-ranu</a></p>
+    </section>
+    <footer>
+        &copy; 2024 Ranjeet Chouhan. All rights reserved.
+    </footer>
+</body>
+</html>
